@@ -17,7 +17,7 @@ function App() {
   const [value, setValue] = useState("aDay");
   const [oneDay, setOneDay] = useState(true);
 
-  const api_key = "911713f9a5d7fc231aa1d523b8e27099"
+
   const params = {
     oneDayParam: "weather",
     fiveDaysParam: "forecast"
